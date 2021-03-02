@@ -124,11 +124,11 @@ pub use common::{HTTPVersion, Header, HeaderField, Method, StatusCode};
 pub use request::{ReadWrite, Request};
 pub use response::{Response, ResponseBox};
 
-mod client;
-mod common;
-mod request;
-mod response;
-mod util;
+pub mod client;
+pub mod common;
+pub mod request;
+pub mod response;
+pub mod util;
 
 /// The main class of this library.
 ///
